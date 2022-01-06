@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class NewTransaction extends StatelessWidget {
-  NewTransaction({Key? key}) : super(key: key);
+  NewTransaction({Key? key}) : super(key: key); // Transaction constructor
 
   final titleController = TextEditingController();
   final amountController = TextEditingController();
